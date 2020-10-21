@@ -115,3 +115,7 @@ Your path is: {path}"
 
 
 print(dijkstra(layout,a,f))
+print()
+print(dijkstra(layout,f,e))
+print()
+print(dijkstra(layout,a,e))

@@ -90,7 +90,8 @@ def dijkstra(graph,from_node,to_node):
     	#if there are no destinations to check and we stil haven't reached our goal node....
     	if not next_destinations:
     		return f"No path between {from_node.value} and {to_node.value}"
-
+        
+        #select the shortest path in the list and explore it
     	current_node = min(next_destinations, key=lambda k: next_destinations[k][1])
 
     #uncomment below to view your dict of shortest paths
